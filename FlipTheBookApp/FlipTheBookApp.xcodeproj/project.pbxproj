@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F164A44281F497B00C4861E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164A43281F497B00C4861E /* ResultViewController.swift */; };
+		3F164A49281F516C00C4861E /* My Lifey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F164A45281F516C00C4861E /* My Lifey.pdf */; };
+		3F164A4A281F516C00C4861E /* what Strange Paradise.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F164A46281F516C00C4861E /* what Strange Paradise.pdf */; };
+		3F164A4B281F516C00C4861E /* When the Forest meet the stars.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F164A47281F516C00C4861E /* When the Forest meet the stars.pdf */; };
+		3F164A4C281F516C00C4861E /* Grown Ups.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F164A48281F516C00C4861E /* Grown Ups.pdf */; };
+		3F2E7D4C28149E780098B56F /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7D4B28149E780098B56F /* Genre.swift */; };
+		3F2E7D502814A33B0098B56F /* bookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7D4F2814A33B0098B56F /* bookCollectionViewCell.swift */; };
+		3F2E7D55281E01120098B56F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2E7D54281E01120098B56F /* FirebaseAnalytics */; };
+		3F2E7D57281E01120098B56F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2E7D56281E01120098B56F /* FirebaseAuth */; };
+		3F2E7D59281E01120098B56F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2E7D58281E01120098B56F /* FirebaseDatabase */; };
+		3F2E7D5B281E017A0098B56F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E7D5A281E017A0098B56F /* GoogleService-Info.plist */; };
+		3F57F83A27FA359100AC899A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F83927FA359100AC899A /* AppDelegate.swift */; };
+		3F57F83C27FA359100AC899A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F83B27FA359100AC899A /* SceneDelegate.swift */; };
+		3F57F83E27FA359100AC899A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F83D27FA359100AC899A /* ViewController.swift */; };
+		3F57F84127FA359100AC899A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57F83F27FA359100AC899A /* Main.storyboard */; };
+		3F57F84327FA359400AC899A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F57F84227FA359400AC899A /* Assets.xcassets */; };
+		3F57F84627FA359400AC899A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57F84427FA359400AC899A /* LaunchScreen.storyboard */; };
+		3F57F85127FA359500AC899A /* FlipTheBookAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F85027FA359500AC899A /* FlipTheBookAppTests.swift */; };
+		3F57F85B27FA359500AC899A /* FlipTheBookAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F85A27FA359500AC899A /* FlipTheBookAppUITests.swift */; };
+		3F57F85D27FA359500AC899A /* FlipTheBookAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F85C27FA359500AC899A /* FlipTheBookAppUITestsLaunchTests.swift */; };
+		3F57F86A27FBB16E00AC899A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F86927FBB16E00AC899A /* homeViewController.swift */; };
+		3F57F86C27FBB1A100AC899A /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F86B27FBB1A100AC899A /* GenreViewController.swift */; };
+		3F57F86E27FBB1B200AC899A /* libraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F86D27FBB1B200AC899A /* libraryViewController.swift */; };
+		3F57F87227FBB1D600AC899A /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F87127FBB1D600AC899A /* profileViewController.swift */; };
+		3F57F87427FBB2BF00AC899A /* loginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F87327FBB2BF00AC899A /* loginSignupViewController.swift */; };
+		3FFB1C2F27FFCD7000F5F182 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB1C2E27FFCD7000F5F182 /* BooksViewController.swift */; };
+		DA0EE11E281DAABB00CF1B59 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EE11D281DAABB00CF1B59 /* BookDetailsViewController.swift */; };
+		DA0EE120281DB14F00CF1B59 /* Pride and Prejudice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA0EE11F281DB14E00CF1B59 /* Pride and Prejudice.pdf */; };
+		DA0EE124281DC15400CF1B59 /* BookPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EE123281DC15400CF1B59 /* BookPDFViewController.swift */; };
+		DA0EE126281DC61F00CF1B59 /* A Promised Land.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA0EE125281DC61F00CF1B59 /* A Promised Land.pdf */; };
+		DA0EE128281DC65100CF1B59 /* Scoop.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA0EE127281DC65100CF1B59 /* Scoop.pdf */; };
+		DA0EE12C281DC6ED00CF1B59 /* Steve Jobs The Life, Lessons and Rules for Success.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA0EE12B281DC6EC00CF1B59 /* Steve Jobs The Life, Lessons and Rules for Success.pdf */; };
+		DA0EE12E281DCAE000CF1B59 /* Wings of fire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA0EE12D281DCAE000CF1B59 /* Wings of fire.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F57F84D27FA359500AC899A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F57F82E27FA359100AC899A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F57F83527FA359100AC899A;
+			remoteInfo = FlipTheBookApp;
+		};
+		3F57F85727FA359500AC899A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F57F82E27FA359100AC899A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F57F83527FA359100AC899A;
+			remoteInfo = FlipTheBookApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F164A43281F497B00C4861E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3F164A45281F516C00C4861E /* My Lifey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "My Lifey.pdf"; sourceTree = "<group>"; };
+		3F164A46281F516C00C4861E /* what Strange Paradise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "what Strange Paradise.pdf"; sourceTree = "<group>"; };
+		3F164A47281F516C00C4861E /* When the Forest meet the stars.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "When the Forest meet the stars.pdf"; sourceTree = "<group>"; };
+		3F164A48281F516C00C4861E /* Grown Ups.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Grown Ups.pdf"; sourceTree = "<group>"; };
+		3F2E7D4B28149E780098B56F /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		3F2E7D4F2814A33B0098B56F /* bookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F2E7D5A281E017A0098B56F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F57F83627FA359100AC899A /* FlipTheBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipTheBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57F83927FA359100AC899A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F57F83B27FA359100AC899A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F57F83D27FA359100AC899A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F57F84027FA359100AC899A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F57F84227FA359400AC899A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F57F84527FA359400AC899A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F57F84727FA359400AC899A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F57F84C27FA359500AC899A /* FlipTheBookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTheBookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57F85027FA359500AC899A /* FlipTheBookAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTheBookAppTests.swift; sourceTree = "<group>"; };
+		3F57F85627FA359500AC899A /* FlipTheBookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTheBookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57F85A27FA359500AC899A /* FlipTheBookAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTheBookAppUITests.swift; sourceTree = "<group>"; };
+		3F57F85C27FA359500AC899A /* FlipTheBookAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTheBookAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F57F86927FBB16E00AC899A /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		3F57F86B27FBB1A100AC899A /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		3F57F86D27FBB1B200AC899A /* libraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libraryViewController.swift; sourceTree = "<group>"; };
+		3F57F87127FBB1D600AC899A /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		3F57F87327FBB2BF00AC899A /* loginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginSignupViewController.swift; sourceTree = "<group>"; };
+		3FFB1C2E27FFCD7000F5F182 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		DA0EE11D281DAABB00CF1B59 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		DA0EE11F281DB14E00CF1B59 /* Pride and Prejudice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pride and Prejudice.pdf"; sourceTree = "<group>"; };
+		DA0EE123281DC15400CF1B59 /* BookPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPDFViewController.swift; sourceTree = "<group>"; };
+		DA0EE125281DC61F00CF1B59 /* A Promised Land.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A Promised Land.pdf"; sourceTree = "<group>"; };
+		DA0EE127281DC65100CF1B59 /* Scoop.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Scoop.pdf; sourceTree = "<group>"; };
+		DA0EE12B281DC6EC00CF1B59 /* Steve Jobs The Life, Lessons and Rules for Success.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steve Jobs The Life, Lessons and Rules for Success.pdf"; sourceTree = "<group>"; };
+		DA0EE12D281DCAE000CF1B59 /* Wings of fire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Wings of fire.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F57F83327FA359100AC899A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E7D59281E01120098B56F /* FirebaseDatabase in Frameworks */,
+				3F2E7D55281E01120098B56F /* FirebaseAnalytics in Frameworks */,
+				3F2E7D57281E01120098B56F /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57F84927FA359500AC899A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57F85327FA359500AC899A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F57F82D27FA359100AC899A = {
+			isa = PBXGroup;
+			children = (
+				3F57F83827FA359100AC899A /* FlipTheBookApp */,
+				3F57F84F27FA359500AC899A /* FlipTheBookAppTests */,
+				3F57F85927FA359500AC899A /* FlipTheBookAppUITests */,
+				3F57F83727FA359100AC899A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F57F83727FA359100AC899A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F57F83627FA359100AC899A /* FlipTheBookApp.app */,
+				3F57F84C27FA359500AC899A /* FlipTheBookAppTests.xctest */,
+				3F57F85627FA359500AC899A /* FlipTheBookAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F57F83827FA359100AC899A /* FlipTheBookApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F164A48281F516C00C4861E /* Grown Ups.pdf */,
+				3F164A45281F516C00C4861E /* My Lifey.pdf */,
+				3F164A46281F516C00C4861E /* what Strange Paradise.pdf */,
+				3F164A47281F516C00C4861E /* When the Forest meet the stars.pdf */,
+				3F2E7D5A281E017A0098B56F /* GoogleService-Info.plist */,
+				DA0EE12D281DCAE000CF1B59 /* Wings of fire.pdf */,
+				DA0EE12B281DC6EC00CF1B59 /* Steve Jobs The Life, Lessons and Rules for Success.pdf */,
+				DA0EE127281DC65100CF1B59 /* Scoop.pdf */,
+				DA0EE125281DC61F00CF1B59 /* A Promised Land.pdf */,
+				DA0EE11F281DB14E00CF1B59 /* Pride and Prejudice.pdf */,
+				3F2E7D4B28149E780098B56F /* Genre.swift */,
+				3F57F83927FA359100AC899A /* AppDelegate.swift */,
+				3F57F83B27FA359100AC899A /* SceneDelegate.swift */,
+				3F57F83D27FA359100AC899A /* ViewController.swift */,
+				3F57F83F27FA359100AC899A /* Main.storyboard */,
+				3F57F84227FA359400AC899A /* Assets.xcassets */,
+				3F57F84427FA359400AC899A /* LaunchScreen.storyboard */,
+				3F57F84727FA359400AC899A /* Info.plist */,
+				3F57F86927FBB16E00AC899A /* homeViewController.swift */,
+				3F57F86B27FBB1A100AC899A /* GenreViewController.swift */,
+				3F57F86D27FBB1B200AC899A /* libraryViewController.swift */,
+				3F57F87127FBB1D600AC899A /* profileViewController.swift */,
+				3F57F87327FBB2BF00AC899A /* loginSignupViewController.swift */,
+				3FFB1C2E27FFCD7000F5F182 /* BooksViewController.swift */,
+				3F2E7D4F2814A33B0098B56F /* bookCollectionViewCell.swift */,
+				DA0EE11D281DAABB00CF1B59 /* BookDetailsViewController.swift */,
+				DA0EE123281DC15400CF1B59 /* BookPDFViewController.swift */,
+				3F164A43281F497B00C4861E /* ResultViewController.swift */,
+			);
+			path = FlipTheBookApp;
+			sourceTree = "<group>";
+		};
+		3F57F84F27FA359500AC899A /* FlipTheBookAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F57F85027FA359500AC899A /* FlipTheBookAppTests.swift */,
+			);
+			path = FlipTheBookAppTests;
+			sourceTree = "<group>";
+		};
+		3F57F85927FA359500AC899A /* FlipTheBookAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F57F85A27FA359500AC899A /* FlipTheBookAppUITests.swift */,
+				3F57F85C27FA359500AC899A /* FlipTheBookAppUITestsLaunchTests.swift */,
+			);
+			path = FlipTheBookAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F57F83527FA359100AC899A /* FlipTheBookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F57F86027FA359500AC899A /* Build configuration list for PBXNativeTarget "FlipTheBookApp" */;
+			buildPhases = (
+				3F57F83227FA359100AC899A /* Sources */,
+				3F57F83327FA359100AC899A /* Frameworks */,
+				3F57F83427FA359100AC899A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipTheBookApp;
+			packageProductDependencies = (
+				3F2E7D54281E01120098B56F /* FirebaseAnalytics */,
+				3F2E7D56281E01120098B56F /* FirebaseAuth */,
+				3F2E7D58281E01120098B56F /* FirebaseDatabase */,
+			);
+			productName = FlipTheBookApp;
+			productReference = 3F57F83627FA359100AC899A /* FlipTheBookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F57F84B27FA359500AC899A /* FlipTheBookAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F57F86327FA359500AC899A /* Build configuration list for PBXNativeTarget "FlipTheBookAppTests" */;
+			buildPhases = (
+				3F57F84827FA359500AC899A /* Sources */,
+				3F57F84927FA359500AC899A /* Frameworks */,
+				3F57F84A27FA359500AC899A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F57F84E27FA359500AC899A /* PBXTargetDependency */,
+			);
+			name = FlipTheBookAppTests;
+			productName = FlipTheBookAppTests;
+			productReference = 3F57F84C27FA359500AC899A /* FlipTheBookAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F57F85527FA359500AC899A /* FlipTheBookAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F57F86627FA359500AC899A /* Build configuration list for PBXNativeTarget "FlipTheBookAppUITests" */;
+			buildPhases = (
+				3F57F85227FA359500AC899A /* Sources */,
+				3F57F85327FA359500AC899A /* Frameworks */,
+				3F57F85427FA359500AC899A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F57F85827FA359500AC899A /* PBXTargetDependency */,
+			);
+			name = FlipTheBookAppUITests;
+			productName = FlipTheBookAppUITests;
+			productReference = 3F57F85627FA359500AC899A /* FlipTheBookAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F57F82E27FA359100AC899A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3F57F83527FA359100AC899A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3F57F84B27FA359500AC899A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3F57F83527FA359100AC899A;
+					};
+					3F57F85527FA359500AC899A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3F57F83527FA359100AC899A;
+					};
+				};
+			};
+			buildConfigurationList = 3F57F83127FA359100AC899A /* Build configuration list for PBXProject "FlipTheBookApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F57F82D27FA359100AC899A;
+			packageReferences = (
+				3F2E7D53281E01120098B56F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3F57F83727FA359100AC899A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F57F83527FA359100AC899A /* FlipTheBookApp */,
+				3F57F84B27FA359500AC899A /* FlipTheBookAppTests */,
+				3F57F85527FA359500AC899A /* FlipTheBookAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F57F83427FA359100AC899A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F164A4A281F516C00C4861E /* what Strange Paradise.pdf in Resources */,
+				3F57F84627FA359400AC899A /* LaunchScreen.storyboard in Resources */,
+				DA0EE120281DB14F00CF1B59 /* Pride and Prejudice.pdf in Resources */,
+				3F2E7D5B281E017A0098B56F /* GoogleService-Info.plist in Resources */,
+				3F164A4C281F516C00C4861E /* Grown Ups.pdf in Resources */,
+				3F57F84327FA359400AC899A /* Assets.xcassets in Resources */,
+				3F164A4B281F516C00C4861E /* When the Forest meet the stars.pdf in Resources */,
+				DA0EE128281DC65100CF1B59 /* Scoop.pdf in Resources */,
+				DA0EE12E281DCAE000CF1B59 /* Wings of fire.pdf in Resources */,
+				DA0EE12C281DC6ED00CF1B59 /* Steve Jobs The Life, Lessons and Rules for Success.pdf in Resources */,
+				3F164A49281F516C00C4861E /* My Lifey.pdf in Resources */,
+				3F57F84127FA359100AC899A /* Main.storyboard in Resources */,
+				DA0EE126281DC61F00CF1B59 /* A Promised Land.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57F84A27FA359500AC899A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57F85427FA359500AC899A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F57F83227FA359100AC899A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E7D502814A33B0098B56F /* bookCollectionViewCell.swift in Sources */,
+				3F57F86E27FBB1B200AC899A /* libraryViewController.swift in Sources */,
+				3F57F83E27FA359100AC899A /* ViewController.swift in Sources */,
+				3F57F86C27FBB1A100AC899A /* GenreViewController.swift in Sources */,
+				3F57F87427FBB2BF00AC899A /* loginSignupViewController.swift in Sources */,
+				3F2E7D4C28149E780098B56F /* Genre.swift in Sources */,
+				3FFB1C2F27FFCD7000F5F182 /* BooksViewController.swift in Sources */,
+				DA0EE124281DC15400CF1B59 /* BookPDFViewController.swift in Sources */,
+				DA0EE11E281DAABB00CF1B59 /* BookDetailsViewController.swift in Sources */,
+				3F164A44281F497B00C4861E /* ResultViewController.swift in Sources */,
+				3F57F86A27FBB16E00AC899A /* homeViewController.swift in Sources */,
+				3F57F83A27FA359100AC899A /* AppDelegate.swift in Sources */,
+				3F57F83C27FA359100AC899A /* SceneDelegate.swift in Sources */,
+				3F57F87227FBB1D600AC899A /* profileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57F84827FA359500AC899A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57F85127FA359500AC899A /* FlipTheBookAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57F85227FA359500AC899A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57F85D27FA359500AC899A /* FlipTheBookAppUITestsLaunchTests.swift in Sources */,
+				3F57F85B27FA359500AC899A /* FlipTheBookAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F57F84E27FA359500AC899A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F57F83527FA359100AC899A /* FlipTheBookApp */;
+			targetProxy = 3F57F84D27FA359500AC899A /* PBXContainerItemProxy */;
+		};
+		3F57F85827FA359500AC899A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F57F83527FA359100AC899A /* FlipTheBookApp */;
+			targetProxy = 3F57F85727FA359500AC899A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F57F83F27FA359100AC899A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F57F84027FA359100AC899A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F57F84427FA359400AC899A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F57F84527FA359400AC899A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F57F85E27FA359500AC899A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		3F57F85F27FA359500AC899A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		3F57F86127FA359500AC899A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipTheBookApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlipTheBookApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.FlipTheBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F57F86227FA359500AC899A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipTheBookApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlipTheBookApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.FlipTheBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F57F86427FA359500AC899A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.FlipTheBookAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipTheBookApp.app/FlipTheBookApp";
+			};
+			name = Debug;
+		};
+		3F57F86527FA359500AC899A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.FlipTheBookAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipTheBookApp.app/FlipTheBookApp";
+			};
+			name = Release;
+		};
+		3F57F86727FA359500AC899A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.FlipTheBookAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipTheBookApp;
+			};
+			name = Debug;
+		};
+		3F57F86827FA359500AC899A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.FlipTheBookAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipTheBookApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F57F83127FA359100AC899A /* Build configuration list for PBXProject "FlipTheBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57F85E27FA359500AC899A /* Debug */,
+				3F57F85F27FA359500AC899A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F57F86027FA359500AC899A /* Build configuration list for PBXNativeTarget "FlipTheBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57F86127FA359500AC899A /* Debug */,
+				3F57F86227FA359500AC899A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F57F86327FA359500AC899A /* Build configuration list for PBXNativeTarget "FlipTheBookAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57F86427FA359500AC899A /* Debug */,
+				3F57F86527FA359500AC899A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F57F86627FA359500AC899A /* Build configuration list for PBXNativeTarget "FlipTheBookAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57F86727FA359500AC899A /* Debug */,
+				3F57F86827FA359500AC899A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F2E7D53281E01120098B56F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F2E7D54281E01120098B56F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F2E7D53281E01120098B56F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3F2E7D56281E01120098B56F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F2E7D53281E01120098B56F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3F2E7D58281E01120098B56F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F2E7D53281E01120098B56F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F57F82E27FA359100AC899A /* Project object */;
+}
