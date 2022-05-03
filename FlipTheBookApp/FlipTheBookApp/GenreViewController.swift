@@ -38,6 +38,7 @@ class GenreViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         // Do any additional setup after loading the view.
         genreTableView.delegate = self
         genreTableView.dataSource = self
+       // self..font = UIFont.systemFont(ofSize: 14.0)
         self.title = "Explore Different Genre's"
     }
     

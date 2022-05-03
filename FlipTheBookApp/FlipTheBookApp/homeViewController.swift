@@ -42,7 +42,7 @@ class homeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         bookCollectionView.dataSource = self
         let components = username.components(separatedBy: "@")
         username = components[0]
-        print(username)
+       // print(username)
         helloLabel.text = "Hello " + username.uppercased() + " ,"
         
     }

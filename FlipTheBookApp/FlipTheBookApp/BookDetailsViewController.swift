@@ -23,8 +23,8 @@ class BookDetailsViewController: UIViewController {
         // Do any additional setup after loading the view.
        
         bookname = "\((book?.bookName)!)"
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.largeTitleDisplayMode = .never
+        //self.navigationController?.navigationBar.prefersLargeTitles = true
+        //navigationItem.largeTitleDisplayMode = .never
         //navigationItem.title
        // UINavigationItem.LargeTitleDisplayMode = true
         self.title = bookname

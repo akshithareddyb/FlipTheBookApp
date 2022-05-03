@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zpi-NT-KFn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zpi-NT-KFn">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-139.13043478260872" y="-542.41071428571422"/>
+            <point key="canvasLocation" x="-139" y="-546"/>
         </scene>
         <!--Login Signup View Controller-->
         <scene sceneID="vN1-hS-EHw">
@@ -256,19 +256,8 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ah0-4z-gC3">
-                                <rect key="frame" x="304" y="88" width="90" height="22"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Clear All">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
-                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="clearAllBtn:" destination="hnF-NL-E4z" eventType="touchUpInside" id="GJ6-5x-zot"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOw-OM-5Qa">
-                                <rect key="frame" x="140" y="798" width="134" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOw-OM-5Qa">
+                                <rect key="frame" x="140" y="803" width="134" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Add More ?">
                                     <color key="baseBackgroundColor" systemColor="labelColor"/>
@@ -281,27 +270,38 @@
                         <viewLayoutGuide key="safeArea" id="WMi-is-29B"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="WMi-is-29B" firstAttribute="trailing" secondItem="KOw-OM-5Qa" secondAttribute="trailing" constant="126" id="4CB-lO-DMG"/>
+                            <constraint firstItem="WMi-is-29B" firstAttribute="trailing" secondItem="KOw-OM-5Qa" secondAttribute="trailing" constant="140" id="4CB-lO-DMG"/>
                             <constraint firstAttribute="trailing" secondItem="uMZ-61-t1K" secondAttribute="trailing" id="FD9-I1-gBk"/>
-                            <constraint firstItem="KOw-OM-5Qa" firstAttribute="leading" secondItem="WMi-is-29B" secondAttribute="leading" constant="154" id="Gwa-vc-1Xa"/>
-                            <constraint firstItem="Ah0-4z-gC3" firstAttribute="top" secondItem="YVi-Pv-hA6" secondAttribute="topMargin" id="KYl-WI-iOk"/>
-                            <constraint firstItem="Ah0-4z-gC3" firstAttribute="leading" secondItem="WMi-is-29B" secondAttribute="leading" constant="304" id="OjG-Et-oqF"/>
+                            <constraint firstItem="KOw-OM-5Qa" firstAttribute="leading" secondItem="WMi-is-29B" secondAttribute="leading" constant="140" id="Gwa-vc-1Xa"/>
                             <constraint firstItem="uMZ-61-t1K" firstAttribute="leading" secondItem="YVi-Pv-hA6" secondAttribute="leading" id="ayF-ci-O0i"/>
                             <constraint firstAttribute="bottomMargin" secondItem="uMZ-61-t1K" secondAttribute="bottom" constant="39" id="fln-KX-tJu"/>
-                            <constraint firstItem="uMZ-61-t1K" firstAttribute="top" secondItem="Ah0-4z-gC3" secondAttribute="bottom" constant="27" id="gK6-RQ-75P"/>
-                            <constraint firstItem="WMi-is-29B" firstAttribute="bottom" secondItem="Ah0-4z-gC3" secondAttribute="bottom" constant="703" id="jNQ-AX-THf"/>
-                            <constraint firstItem="uMZ-61-t1K" firstAttribute="trailing" secondItem="Ah0-4z-gC3" secondAttribute="trailing" constant="20" id="oMc-43-1Kt"/>
-                            <constraint firstItem="KOw-OM-5Qa" firstAttribute="top" secondItem="uMZ-61-t1K" secondAttribute="bottom" constant="8" symbolic="YES" id="tGf-BP-RAY"/>
+                            <constraint firstItem="uMZ-61-t1K" firstAttribute="top" secondItem="WMi-is-29B" secondAttribute="top" constant="49" id="s4k-96-Nlx"/>
+                            <constraint firstItem="KOw-OM-5Qa" firstAttribute="top" secondItem="uMZ-61-t1K" secondAttribute="bottom" constant="29" id="tGf-BP-RAY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Kyf-bb-m5c"/>
+                    <navigationItem key="navigationItem" id="Kyf-bb-m5c">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="qe8-C2-vkg">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Ah0-4z-gC3">
+                                <rect key="frame" x="304" y="5" width="90" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Clear All">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clearAllBtn:" destination="hnF-NL-E4z" eventType="touchUpInside" id="GJ6-5x-zot"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableViewOutlet" destination="uMZ-61-t1K" id="DoU-xr-NL6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oha-e0-gu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="511.59420289855075" y="422.54464285714283"/>
+            <point key="canvasLocation" x="-100" y="179"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c2s-MZ-uIZ">
@@ -376,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eH-ql-QNM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1283" y="-542"/>
+            <point key="canvasLocation" x="-2680" y="-909"/>
         </scene>
         <!--Books View Controller-->
         <scene sceneID="DSV-cb-2Yl">
@@ -415,7 +415,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JSO-Yr-kRE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-767" y="510"/>
+            <point key="canvasLocation" x="-2725" y="-80"/>
         </scene>
         <!--Book Details View Controller-->
         <scene sceneID="HJy-Wq-JHz">
@@ -480,7 +480,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pcb-Tx-WUN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-139.13043478260872" y="1557.5892857142856"/>
+            <point key="canvasLocation" x="-2619" y="715"/>
         </scene>
         <!--BookPDF View Controller-->
         <scene sceneID="aRh-pR-iUf">
@@ -496,7 +496,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Z2-rp-pud" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="512" y="1134"/>
+            <point key="canvasLocation" x="-100" y="999"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="vK4-di-ojt">
@@ -643,7 +643,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYB-z2-ep9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1657.9710144927537" y="766.74107142857144"/>
+            <point key="canvasLocation" x="735" y="179"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="bi4-Jv-oat">
@@ -679,13 +679,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sPC-Vl-8uM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1658" y="1558"/>
+            <point key="canvasLocation" x="777" y="982"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ja4-cv-qzX"/>
+        <segue reference="Ktu-Qu-S9n"/>
         <segue reference="UGN-qf-kdK"/>
-        <segue reference="mwu-jL-P3b"/>
+        <segue reference="1dH-RX-Uap"/>
         <segue reference="4Zp-6P-K3i"/>
     </inferredMetricsTieBreakers>
     <resources>
